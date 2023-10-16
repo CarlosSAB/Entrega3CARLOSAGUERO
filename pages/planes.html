@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RebelField</title>
+</head>
+<body class="gridContainer_planes">
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">RebelField</a>
+    
+          <div class="offcanvas offcanvas-start text-bg-dark bg-primary" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+    
+              <button id="botonCerrar" type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+              <h5 class="offcanvas-title p-3" id="offcanvasDarkNavbarLabel">RebelField</h5>
+    
+    
+    
+            </div>
+    
+    
+    
+            <hr>
+            <div class="offcanvas-body p-0">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item p-3">
+                  <a class="nav-link  fs-5" aria-current="page" href="../index.html">
+                    <i class="bi bi-house-fill"></i>
+                    Inicio</a>
+                </li>
+                <li class="nav-item p-3">
+                  <a class="nav-link fs-5" href="planes.html">
+                    <i class="bi bi-bar-chart-steps"></i>
+                    Planes</a>
+                </li>
+                <li class="nav-item p-3">
+                  <a class="nav-link fs-5" href="servicios.html">
+                    <i class="bi bi-person-fill-gear"></i>
+                    Servicios</a>
+                </li>
+    
+                <li class="nav-item p-3">
+                  <a class="nav-link fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-sliders"></i>
+                    Configuración</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <main class="mainPlanes">
+        <h1 class="mainH1P">PLANES</h1>
+        <h2 class="mainH2P">Elige el mejor plan para ti</h2>
+    </main>
+    <!-- <section class="sectionP">
+        <div class="cardContainer">
+            <div class="imageCard">
+                <img src="../assets/vehicle.png" alt="carro" class="carro_1">
+            </div>
+            <div class="titleContainer">
+                <h1 class="cardTitle">Full Pass</h1>
+                <p class="cardParagraph">Paquete premium con beneficios y membresias.</p>
+                <button class="cardButton">¡Lo quiero!</button>
+            </div>
+            
+        </div>
+        <div class="cardContainer">
+            <div class="imageCard">
+                <img src="../assets/carro_medium.avif" alt="carro" class="carro_1">
+            </div>
+            <div class="titleContainer">
+                <h1 class="cardTitle">Medium Pass</h1>
+                <p class="cardParagraph">Paquete medium con beneficios y membresias.</p>
+                <button class="cardButton">¡Lo quiero!</button>
+            </div>
+            
+        </div>
+        <div class="cardContainer">
+            <div class="imageCard">
+                <img src="../assets/carro_basic.avif" alt="carro" class="carro_3">
+            </div>
+            <div class="titleContainer">
+                <h1 class="cardTitle">Basic Pass</h1>
+                <p class="cardParagraph">Paquete básico con beneficios y membresias.</p>
+                <button class="cardButton">¡Lo quiero!</button>
+            </div>
+            
+        </div>
+    </section> -->
+    <div id="container2" class="container gap-1 p-5 d-flex">
+
+        <!--Contenedor de los 3 servicios-->
+        <div id="contenedorTarjeta"class="card text-center d-flex flex-row  row ">
+          <div id="card" class="card  col-12 col-md-6 d-flex align-items-center">
+            <img src="../assets/vehicle.png" alt="carro" class="carro_1">
+            <div class="card-body">
+              <h5 class="card-title">Prime Basic</h5>
+              <p class="card-text">Plan Prime Basic incluye contenido premium actualizable cada semana en conjunto con contenido descargable totalmente gratis para el manejo y estructura de sus datos</p>
+              <hr>
+              <div class="container">
+                <h1>49.90$</h1>
+                <p>Mensual</p>
+              </div>
+              <div class="d-grid gap-2  mx-auto">
+                <button class="btn btn-primary d-flex align-items-center justify-content-center gap-3" type="button"><i class="bi bi-bookmark-check-fill"></i>Quiero más información</button>
+                <button class="btn btn-success d-flex align-items-center justify-content-center gap-3" type="button"><i class="bi bi-cart-fill"></i>Quiero Comprar</button>
+              </div>
+
+            </div>
+          </div>
+          <div id="card" class="card col-12 col-md-6 d-flex align-items-center">
+            <img id="imagencarro" src="../assets/carro_medium.avif" alt="carro" class="carro_1">
+            <div class="card-body">
+              <h5 class="card-title">Standar Evaluation</h5>
+              <p class="card-text">Plan Standar Evaluation incluye contenido premium actualizable cada semana en conjunto con contenido descargable totalmente gratis para el manejo y estructura de sus datos</p>
+              <hr>
+              <div class="container">
+                <h1>28.90$</h1>
+                <p>Mensual</p>
+              </div>
+              <div class="d-grid gap-2  mx-auto">
+                <button class="btn btn-primary d-flex align-items-center justify-content-center gap-3" type="button"><i class="bi bi-bookmark-check-fill"></i>Quiero más información</button>
+                <button class="btn btn-success d-flex align-items-center justify-content-center gap-3" type="button"><i class="bi bi-cart-fill"></i>Quiero Comprar</button>
+              </div>
+            </div>
+    
+          </div>
+          <!-- <div id="card" class="card col-md-4 d-flex align-items-center">
+            <img src="../assets/carro_basic.avif" alt="carro" class="carro_3">
+            <div class="card-body">
+              <h5 class="card-title">Manejo de cuentas</h5>
+              <p class="card-text">Edita y controla los pagos y transferencias desde una sola plataforma</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    <footer class="footerP bg-body-seu">
+        <div class="footer-content d-flex align-items-center justify-content-center">
+            <div class="footer_title d-flex align-items-center justify-content-center">
+            <h3>Contacto</h3>
+            <p>¡Déjanos tu información y te contactaremos pronto!</p>
+            <p>Visítanos en Jr.Downtown 342 ir 23</p>
+            <iframe id="mapa"class="m-4" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3104.9756673836855!2d-77.03892582461762!3d38.90167174645287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d38.9012339!2d-77.0363789!4m5!1s0x89b7b7bef4c5a11b%3A0x97da1435d5a24334!2sThe%20St.%20Regis%20Washington%2C%20DC!3m2!1d38.9020084!2d-77.0362541!5e0!3m2!1ses!2spe!4v1697303410449!5m2!1ses!2spe" style="border:0; border-radius: 6px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="formulario p-5"action="https://formsubmit.co/soporte7markovations@gmail.com" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="name" placeholder="Tu nombre">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+                
+                <button class="botonForm" type="submit">Enviar</button>
+
+                <input type="hidden" name="_next" value="http://localhost:9999/PreEntrega2AgueroBarreto-main/pages/planes.html"/>
+                <input type="hidden" name="_captcha" value="false"/>
+            </form>
+            
+        </div>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

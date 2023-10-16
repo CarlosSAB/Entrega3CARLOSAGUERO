@@ -1,0 +1,77 @@
+.footerP{
+    grid-area: footerP;
+
+    display:Flex;
+    flex-direction: column;
+
+}
+
+#footer_title{
+display:flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding:0 2rem;
+}
+
+.footer-content{
+    padding:40px 0;
+
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-content h3{
+    font-size:30px;
+    color:white;
+}
+
+.footer-content p{
+    color:white;
+
+}
+
+.formulario {
+    max-width: 400px;
+
+
+}
+
+.formulario label {
+    display: block; 
+    margin-bottom: 5px; 
+    color:White;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+.formulario .botonForm {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario .botonForm:hover {
+    background-color: #0056b3;
+}
+
+#mapa{
+    width: 80% !important;
+    height: auto;
+}
